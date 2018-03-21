@@ -1,0 +1,13 @@
+<view class="container">
+<div>
+<span style="color:blue">【崂山区】</span>
+<image src="http://pre.ih5.cn/files/1660892/17281/40d1e8_640_1046.jpg">
+</image>
+</div>
+<div style="display:none">市南区</div>
+<div style="display:none">市北区</div>
+<div style="display:none">李沧区</div>
+<div style="display:none">城阳区</div>
+<div style="display:none">黄岛区</div>
+<div style="display:none">胶州市</div>
+</view>
