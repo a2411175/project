@@ -13,22 +13,21 @@
   },
   "tabBar":{
     "position": "bottom",
-    "color": "#CCFFFF",
-    "backgroundColor": "#000000",
+    "color": "#666666",
     "selectedColor": "#FF6600",
     "borderStyle":"white",    
     "list":[
       {
       "pagePath": "pages/home/home",
       "text": "Home",
-      "iconPath": "utils/png/home.png",
-      "selectedIconPath": "utils/png/home.png"
+      "iconPath": "utils/png/index.png",
+      "selectedIconPath": "utils/png/indexHL.png"
       },
       {
         "pagePath": "pages/index/index",
         "text": "Tonne Spot",
-        "iconPath": "utils/png/setting.png",
-        "selectedIconPath": "utils/png/setting.png"
+        "iconPath": "utils/png/picDisplay.png",
+        "selectedIconPath": "utils/png/picDisplayHL.png"
       }
     ]
   },
