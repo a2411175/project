@@ -4,10 +4,36 @@
     "pages/index/index",
     "pages/logs/logs"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
-  }
+  "window": {
+    "navigationBarBackgroundColor": "#CCFFFF",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Toone",
+    "backgroundColor": "#CCFFFF",
+    "backgroundTextStyle": "black"
+  },
+  "tabBar":{
+    "position": "bottom",
+    "color": "#CCFFFF",
+    "backgroundColor": "#000000",
+    "selectedColor": "#FF6600",
+    "borderStyle":"white",    
+    "list":[
+      {
+      "pagePath": "pages/home/home",
+      "text": "Home",
+      "iconPath": "utils/png/home.png",
+      "selectedIconPath": "utils/png/home.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "Tonne Spot",
+        "iconPath": "utils/png/setting.png",
+        "selectedIconPath": "utils/png/setting.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+      "request": 10000,
+      "downloadFile": 10000
+   }
 }
